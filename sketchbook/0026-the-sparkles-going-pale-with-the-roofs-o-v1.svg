@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs>
+<rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<!-- rows of sparkles, paler toward the roofs -->
+<g stroke="#f4f2ec" stroke-width="1.5" fill="none" stroke-linecap="round">
+<path d="M22 28h6M25 25v6M70 36h6M73 33v6M120 26h6M123 23v6M170 38h6M173 35v6M215 24h6M218 21v6M262 36h6M265 33v6M370 30h6M373 27v6"/>
+</g>
+<g stroke="#f6d23c" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-opacity="0.85">
+<path d="M42 64h5M44.500 61.500v5M95 70h5M97.500 67.500v5M145 62h5M147.500 59.500v5M195 72h5M197.500 69.500v5M240 64h5M242.500 61.500v5M290 76h5M292.500 73.500v5M350 70h5M352.500 67.500v5"/>
+</g>
+<g stroke="#66c3ee" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-opacity="0.65">
+<path d="M20 100h4M22 98v4M68 106h4M70 104v4M118 98h4M120 96v4M168 108h4M170 106v4M220 100h4M222 98v4M268 110h4M270 108v4M335 112h4M337 110v4M382 100h4M384 98v4"/>
+</g>
+<g stroke="#f4f2ec" stroke-width="1" fill="none" stroke-linecap="round" stroke-opacity="0.45">
+<path d="M40 138h3M41.500 136.500v3M92 144h3M93.500 142.500v3M142 136h3M143.500 134.500v3M192 146h3M193.500 144.500v3M244 138h3M245.500 136.500v3M296 148h3M297.500 146.500v3M356 140h3M357.500 138.500v3"/>
+</g>
+<g stroke="#f4f2ec" stroke-width="0.8" fill="none" stroke-linecap="round" stroke-opacity="0.25">
+<path d="M22 168h2M70 172h2M118 166h2M166 174h2M214 168h2M262 172h2M310 166h2M358 172h2M30 190h2M100 192h2M180 190h2M260 192h2M340 190h2"/>
+</g>
+<!-- moon with round holes -->
+<circle cx="325" cy="62" r="28" stroke="#f4f2ec" stroke-width="2" fill="none"/>
+<g stroke="#f4f2ec" stroke-width="1" stroke-opacity="0.5" fill="none" stroke-linecap="round">
+<path d="M303 50l20-18M300 58l32-28M300 68l42-34M304 78l42-34M312 86l36-30M324 90l24-20M338 90l10-8"/>
+</g>
+<circle cx="315" cy="55" r="5" stroke="#f4f2ec" stroke-width="1.3" fill="none"/>
+<circle cx="333" cy="72" r="7" stroke="#f4f2ec" stroke-width="1.3" fill="none"/>
+<circle cx="316" cy="76" r="3" stroke="#f4f2ec" stroke-width="1.3" fill="none"/>
+<circle cx="337" cy="48" r="2.500" stroke="#f4f2ec" stroke-width="1.2" fill="none"/>
+<!-- roofs -->
+<g stroke="#3a3a3c" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M0 214L20 194L42 214L42 200L62 182L84 200L84 212L104 196L126 214"/>
+<path d="M250 214L272 192L294 214L294 204L318 184L342 204L342 212L364 194L386 214L400 208"/>
+<path d="M0 214h126M250 214h150"/>
+<path d="M64 182v-10h6v12M320 184v-12h6v14"/>
+</g>
+<g stroke="#8a4fc8" stroke-width="1" stroke-opacity="0.5" fill="none" stroke-linecap="round">
+<path d="M8 206l8-8M14 212l18-16M26 214l14-14M50 196l12-10M56 206l24-20M70 208l12-10M258 208l14-14M266 214l24-22M280 214l10-10M300 200l16-14M308 208l30-22M326 208l14-12M350 206l12-10M356 212l24-18"/>
+</g>
+<!-- tree stump -->
+<g stroke="#8a5a34" stroke-width="2" fill="none" stroke-linecap="round">
+<ellipse cx="160" cy="254" rx="62" ry="13"/>
+<path d="M98 254l-4 38M222 254l5 38"/>
+<path d="M94 292q66 8 133 0"/>
+</g>
+<g stroke="#8a5a34" stroke-width="1" stroke-opacity="0.7" fill="none" stroke-linecap="round">
+<path d="M108 262l-2 26M122 266v26M138 268v26M154 268v26M170 268v26M186 267v26M202 265l2 26M214 262l4 26"/>
+<ellipse cx="160" cy="254" rx="40" ry="8"/>
+<ellipse cx="160" cy="254" rx="20" ry="4"/>
+</g>
+<!-- tofu lying on his back -->
+<g stroke="#f4f2ec" stroke-width="1.2" fill="none" stroke-linecap="round">
+<ellipse cx="165" cy="242" rx="26" ry="9" stroke-width="1.8"/>
+<path d="M146 238l18-4M146 243l26-6M152 247l30-8M164 249l20-8M174 248l10-6"/>
+<circle cx="130" cy="240" r="10" stroke-width="1.8"/>
+</g>
+<g stroke="#f4f2ec" stroke-width="0.9" fill="none" stroke-linecap="round" stroke-opacity="0.8">
+<path d="M123 236l12-3M122 241l16-5M124 246l12-5"/>
+</g>
+<g stroke="#111111" stroke-width="2" fill="none" stroke-linecap="round">
+<circle cx="123" cy="231" r="3.500"/>
+<circle cx="137" cy="231" r="3.500"/>
+<path d="M126 239l1 1M133 239l1 1M129 244h3"/>
+<path d="M150 236l-6-14M159 233l-2-16M176 234l6-14M184 238l10-10"/>
+</g>
+<g stroke="#111111" stroke-width="1.2" fill="none" stroke-linecap="round">
+<path d="M124 237l2 1M133 237l2 1"/>
+<path d="M123 228l-3 4M137 228l3 4"/>
+</g>
+<!-- feather -->
+<g stroke="#ec6fa8" stroke-width="1.8" fill="none" stroke-linecap="round">
+<path d="M232 280q20-14 46-30"/>
+<path d="M240 274l-2-10M248 268l-2-12M256 262l-1-12M264 257l1-11M272 253l3-9"/>
+<path d="M242 274l8 2M250 268l9 1M258 262l9 0M266 257l8-1"/>
+</g>
+<!-- crystal shards -->
+<g stroke="#66c3ee" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M300 288l8-24l8 24z"/>
+<path d="M308 264v24M304 280l4-8"/>
+<path d="M320 288l5-14l5 14z"/>
+</g>
+<g stroke="#f4f2ec" stroke-width="1" stroke-opacity="0.8" stroke-linecap="round">
+<path d="M335 262h6M338 259v6M290 262h4M292 260v4"/>
+</g>
+</g></svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs>
+<rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<!-- rows of sparkles -->
+<g stroke="#f4f2ec" stroke-width="1.6">
+<path d="M22 26l0.5 0M45 28l0.5 0M68 25l0.5 0M92 27l0.5 0M116 26l0.5 0M140 28l0.5 0M164 25l0.5 0M188 27l0.5 0"/>
+<path d="M30 50l0.5 0M56 52l0.5 0M82 49l0.5 0M108 51l0.5 0M134 50l0.5 0M160 52l0.5 0M186 49l0.5 0M212 51l0.5 0"/>
+<path d="M18 76l0.5 0M46 78l0.5 0M74 75l0.5 0M102 77l0.5 0M130 76l0.5 0M158 78l0.5 0M186 75l0.5 0"/>
+<path d="M36 102l0.5 0M68 104l0.5 0M100 101l0.5 0M132 103l0.5 0M164 102l0.5 0"/>
+<path d="M30 126l0.5 0M70 128l0.5 0M110 125l0.5 0"/>
+</g>
+<g stroke="#f4f2ec" stroke-width="1" opacity="0.8">
+<path d="M22 23v6M19 26h6M92 24v6M89 27h6M134 47v6M131 50h6M74 72v6M71 75h6M164 99v6M161 102h6"/>
+</g>
+<!-- crowd of stars upper right -->
+<g stroke="#f4f2ec" stroke-width="1.4">
+<path d="M335 20l.5 0M342 28l.5 0M352 18l.5 0M360 32l.5 0M370 22l.5 0M378 36l.5 0M345 40l.5 0M358 48l.5 0M368 56l.5 0M382 52l.5 0M340 58l.5 0M352 66l.5 0M375 70l.5 0M388 64l.5 0M330 36l.5 0M392 28l.5 0M364 12l.5 0M385 12l.5 0M348 80l.5 0M366 84l.5 0M384 90l.5 0M336 76l.5 0"/>
+</g>
+<g stroke="#66c3ee" stroke-width="1.2" opacity="0.8">
+<path d="M250 30l.5 0M262 44l.5 0M240 62l.5 0M270 70l.5 0M255 90l.5 0M282 100l.5 0M300 88l.5 0M320 100l.5 0"/>
+</g>
+<!-- gold star -->
+<g stroke="#f6d23c" stroke-width="2">
+<path d="M295 45v-20M295 45v20M295 45h-20M295 45h20"/>
+<path d="M295 45l-9 -9M295 45l9 9M295 45l9 -9M295 45l-9 9" stroke-width="1.4"/>
+<path d="M290 42l10 6M300 42l-10 6M293 40l4 10"/>
+</g>
+<!-- hill left -->
+<path d="M0 176C30 150 70 138 110 150C130 158 145 168 160 176" stroke="#f4f2ec" stroke-width="1.6"/>
+<g stroke="#3a3a3c" stroke-width="2">
+<path d="M4 172l30 -22M12 174l40 -30M26 176l50 -34M44 176l58 -30M62 176l60 -22M82 176l54 -16M104 176l40 -10M126 176l24 -6"/>
+</g>
+<!-- island ground -->
+<path d="M175 177C200 172 260 170 340 174C360 175 372 176 380 178" stroke="#f4f2ec" stroke-width="1.4"/>
+<g stroke="#2f9e4f" stroke-width="1.4" opacity="0.8">
+<path d="M180 177l6 -4M200 177l6 -4M270 176l6 -4M290 176l6 -4M320 177l6 -4M345 177l6 -4"/>
+</g>
+<!-- round hall with green dome -->
+<path d="M200 172V150H262V172" stroke="#f4f2ec" stroke-width="1.8"/>
+<g stroke="#f4f2ec" stroke-width="1" opacity="0.7">
+<path d="M204 170l10 -18M214 170l12 -20M226 170l12 -20M238 170l12 -20M250 170l10 -18"/>
+</g>
+<path d="M200 150C202 124 258 124 262 150" stroke="#2f9e4f" stroke-width="2"/>
+<g stroke="#2f9e4f" stroke-width="1.6">
+<path d="M204 148C206 134 216 130 222 130M208 148C210 138 220 132 228 130M214 148C216 138 226 132 236 132M222 148C224 138 234 134 244 135M232 148C236 140 244 137 252 138M242 148C246 142 252 140 258 142"/>
+</g>
+<path d="M210 142C220 134 245 134 254 142" stroke="#9fdc4a" stroke-width="1.2"/>
+<path d="M226 172v-9h8v9" stroke="#8a5a34" stroke-width="1.5"/>
+<!-- long roof, shelves -->
+<path d="M150 160H200M150 160v16M150 160l-6 4" stroke="#8a5a34" stroke-width="1.6"/>
+<path d="M152 166h46M152 172h46" stroke="#f08a24" stroke-width="1"/>
+<path d="M158 166v-5M164 172v-6M172 166v-5M180 172v-6M188 166v-5" stroke="#ec6fa8" stroke-width="1.2"/>
+<!-- telescope -->
+<ellipse cx="312" cy="176" rx="22" ry="4" stroke="#f4f2ec" stroke-width="1.4"/>
+<path d="M312 174L304 160M312 174L320 160M312 174V158" stroke="#8a5a34" stroke-width="1.5"/>
+<path d="M308 160L338 130L342 134L312 164Z" stroke="#f08a24" stroke-width="2"/>
+<path d="M312 158l26 -25M310 162l28 -27" stroke="#f6d23c" stroke-width="1"/>
+<path d="M340 128l5 5" stroke="#f4f2ec" stroke-width="2.4"/>
+<!-- water -->
+<g stroke="#2f5fd0" stroke-width="1.3">
+<path d="M0 184q10 -3 20 0t20 0t20 0t20 0M110 184q10 -3 20 0t20 0M330 185q10 -3 20 0t20 0t20 0"/>
+<path d="M10 270q12 -3 24 0t24 0t24 0M300 272q12 -3 24 0t24 0t24 0"/>
+<path d="M20 200q14 -3 28 0t28 0t28 0M290 204q14 -3 28 0t28 0t28 0"/>
+<path d="M30 222q14 -3 28 0t28 0M290 232q14 -3 28 0t28 0M0 250q14 -3 28 0t28 0"/>
+</g>
+<!-- round face reflection, hatched -->
+<g stroke="#f4f2ec" stroke-width="1.8" opacity="0.9">
+<path d="M184 205l32 -1M177 210l46 -1M173 215l54 -1M170 220l60 -1M168 225l64 -1M167 230l66 0"/>
+</g>
+<g stroke="#f6d23c" stroke-width="1.6" opacity="0.75">
+<path d="M167 235l66 1M167 240l66 0M170 245l60 1M173 250l54 0M177 255l46 1M184 260l32 -1"/>
+<path d="M180 208l28 40M190 205l30 40M175 220l30 36M200 204l28 36"/>
+</g>
+<path d="M200 201C220 199 236 214 235 234C234 256 218 270 200 270C180 270 165 254 165 235C165 215 180 202 200 201Z" stroke="#f4f2ec" stroke-width="2.2"/>
+<!-- face -->
+<path d="M186 226l0 7M214 226l0 7" stroke="#111111" stroke-width="3.2"/>
+<path d="M190 246q10 7 20 0" stroke="#111111" stroke-width="2.4"/>
+<path d="M178 240l5 0M217 240l5 0" stroke="#ec6fa8" stroke-width="2"/>
+<!-- ripples across face -->
+<g stroke="#66c3ee" stroke-width="1.8">
+<path d="M150 215q12 -4 24 0t24 0t24 0t24 0t24 0"/>
+<path d="M156 260q12 -4 24 0t24 0t24 0t24 0"/>
+</g>
+<g stroke="#111111" stroke-width="1.4" opacity="0.8">
+<path d="M170 253q10 -3 20 0M215 222q8 -3 16 0"/>
+</g>
+<!-- reflected sparkles -->
+<g stroke="#f4f2ec" stroke-width="1.5" opacity="0.8">
+<path d="M40 215h4M70 232h4M110 210h4M120 246h4M270 214h4M255 240h4M350 220h4M335 250h4M90 265h4M30 285h4"/>
+</g>
+<path d="M330 225h8M334 221v8M327 262h6" stroke="#f6d23c" stroke-width="1.8"/>
+<!-- feather and crystal shards, bottom -->
+<path d="M355 285q15 -10 30 -4M355 285q10 -2 22 -3M360 282q6 -8 12 -9" stroke="#ec6fa8" stroke-width="1.4"/>
+<path d="M60 288l4 -8l4 8zM80 289l3 -6l3 6z" stroke="#66c3ee" stroke-width="1.4"/>
+</g>
+</g></svg>

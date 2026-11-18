@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs>
+<rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<!-- sparkle rows, going paler toward the roofs -->
+<g fill="none" stroke-linecap="round" stroke-width="1.3">
+<path stroke="#f4f2ec" opacity="0.95" d="M21 30h6M24 27v6M49 32h6M52 29v6M77 29h6M80 26v6M105 31h6M108 28v6M135 29h6M138 26v6M163 32h6M166 29v6M189 30h6M192 27v6M219 31h6M222 28v6M247 29h6M250 26v6"/>
+<path stroke="#f6d23c" opacity="0.8" d="M36 54h6M39 51v6M92 56h6M95 53v6M150 55h6M153 52v6M206 54h6M209 51v6M262 56h6M265 53v6"/>
+<path stroke="#f4f2ec" opacity="0.7" d="M20 80h5M22.5 77.5v5M48 82h5M50.5 79.5v5M76 79h5M78.5 76.5v5M104 81h5M106.5 78.5v5M132 80h5M134.5 77.5v5M160 82h5M162.5 79.5v5M188 79h5M190.5 76.5v5M216 81h5M218.5 78.5v5M244 80h5M246.5 77.5v5"/>
+<path stroke="#66c3ee" opacity="0.6" d="M34 104h5M36.5 101.5v5M62 106h5M64.5 103.5v5M118 105h5M120.5 102.5v5M174 106h5M176.5 103.5v5M230 104h5M232.5 101.5v5M300 112h5M302.5 109.5v5"/>
+<path stroke="#f4f2ec" opacity="0.5" d="M18 130h4M20 128v4M46 132h4M48 130v4M74 129h4M76 127v4M102 131h4M104 129v4M130 130h4M132 128v4M158 132h4M160 130v4M186 129h4M188 127v4M214 131h4M216 129v4M242 130h4M244 128v4M270 132h4M272 130v4M298 129h4M300 127v4M326 131h4M328 129v4M354 130h4M356 128v4M380 132h4M382 130v4"/>
+<path stroke="#f4f2ec" opacity="0.3" d="M32 154h3M33.5 152.5v3M60 156h3M61.5 154.5v3M88 153h3M89.5 151.5v3M116 155h3M117.5 153.5v3M144 154h3M145.5 152.5v3M172 156h3M173.5 154.5v3M200 153h3M201.5 151.5v3M228 155h3M229.5 153.5v3M256 154h3M257.5 152.5v3M284 156h3M285.5 154.5v3M312 153h3M313.5 151.5v3M340 155h3M341.5 153.5v3M368 154h3M369.5 152.5v3"/>
+<path stroke="#f4f2ec" opacity="0.15" stroke-dasharray="2 9" d="M16 176h370"/>
+</g>
+<!-- Moon, hatched -->
+<g fill="none" stroke-linecap="round">
+<g stroke="#f4f2ec" stroke-width="1.2" opacity="0.65">
+<path d="M309 43l22 1M302 47l36 1M298 51l44 1M295 55l50 1M293 59l54 1M291 63l58 1M290 67l60 1M290 71l60 1M291 75l58 1M292 79l56 1M294 83l52 1M297 87l46 1M301 91l38 1M307 95l26 1M312 99l16 1"/>
+</g>
+<g stroke="#f6d23c" stroke-width="1" opacity="0.35">
+<path d="M296 58l48 8M293 70l54 8M298 84l44 6"/>
+</g>
+<circle cx="320" cy="70" r="31" stroke="#f4f2ec" stroke-width="1.8"/>
+<circle cx="321" cy="69" r="30" stroke="#f4f2ec" stroke-width="0.8" opacity="0.6"/>
+<circle cx="309" cy="62" r="6" stroke="#3a3a3c" stroke-width="1.8"/>
+<circle cx="331" cy="79" r="8" stroke="#3a3a3c" stroke-width="1.8"/>
+<circle cx="317" cy="86" r="4" stroke="#3a3a3c" stroke-width="1.6"/>
+<circle cx="332" cy="55" r="3.5" stroke="#3a3a3c" stroke-width="1.6"/>
+<circle cx="305" cy="76" r="2.5" stroke="#3a3a3c" stroke-width="1.4"/>
+</g>
+<!-- roofs -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path stroke="#3a3a3c" stroke-width="1.8" d="M0 205L0 190L20 178L40 190L40 200M40 190L62 192L80 172L100 190L100 203"/>
+<path stroke="#3a3a3c" stroke-width="1.8" d="M215 205L215 188L240 170L262 188L262 196M262 186L290 186L305 172L322 186L346 186L366 168L388 186L400 186"/>
+<path stroke="#2f5fd0" stroke-width="1" opacity="0.7" d="M6 188l14-9l14 9M64 190l16-16l15 16M222 186l18-14l18 14M292 184l13-11l14 11M350 184l16-14l18 14"/>
+<path stroke="#f6d23c" stroke-width="1.6" d="M26 193h4M85 190h4M246 186h4M312 190h4M370 184h4"/>
+<path stroke="#f08a24" stroke-width="1.2" opacity="0.7" d="M27 196h2M87 193h2M371 187h2"/>
+</g>
+<!-- stump -->
+<g fill="none" stroke-linecap="round">
+<path stroke="#8a5a34" stroke-width="2" d="M62 236L58 288M218 236L224 288M58 288Q140 298 224 288"/>
+<path stroke="#8a5a34" stroke-width="1.2" opacity="0.8" d="M72 244l-2 40M84 248l-1 42M98 250l0 44M114 252l0 44M130 252l0 44M146 252l0 44M162 252l1 44M178 250l1 42M194 247l2 40M208 243l3 40"/>
+<ellipse cx="140" cy="236" rx="80" ry="17" stroke="#8a5a34" stroke-width="2"/>
+<ellipse cx="140" cy="236" rx="58" ry="11" stroke="#f08a24" stroke-width="0.9" opacity="0.6"/>
+<ellipse cx="140" cy="236" rx="34" ry="6" stroke="#8a5a34" stroke-width="0.9" opacity="0.8"/>
+<ellipse cx="140" cy="236" rx="12" ry="2.5" stroke="#8a5a34" stroke-width="0.9"/>
+</g>
+<!-- Tofu lying on his back -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<!-- body -->
+<ellipse cx="142" cy="220" rx="38" ry="14" stroke="#f4f2ec" stroke-width="2"/>
+<path stroke="#f4f2ec" stroke-width="1" opacity="0.7" d="M115 215l50-2M112 219l56-2M112 223l56-2M116 227l48-2M124 230l32-2"/>
+<!-- head -->
+<circle cx="96" cy="213" r="15" stroke="#f4f2ec" stroke-width="2"/>
+<path stroke="#f4f2ec" stroke-width="0.9" opacity="0.6" d="M86 205l18-3M83 210l26-2M82 215l28-1M84 220l24-1M88 225l16-1"/>
+<circle cx="86" cy="199" r="5.5" stroke="#f4f2ec" stroke-width="1.6"/>
+<circle cx="107" cy="198" r="5.5" stroke="#f4f2ec" stroke-width="1.6"/>
+<path stroke="#3a3a3c" stroke-width="1.4" d="M83 197l6 3M84 200l5 0M105 196l6 3M105 199l5 0"/>
+<!-- eye patches -->
+<ellipse cx="90" cy="211" rx="3.5" ry="2.5" stroke="#111111" stroke-width="2"/>
+<ellipse cx="103" cy="210" rx="3.5" ry="2.5" stroke="#111111" stroke-width="2"/>
+<path stroke="#3a3a3c" stroke-width="1" d="M87 210l6 1M100 209l6 1M88 212l4 0M101 211l4 0"/>
+<path stroke="#f4f2ec" stroke-width="1.4" d="M90 211l.5 0M103 210l.5 0"/>
+<path stroke="#111111" stroke-width="2" d="M95 217l3 0"/>
+<path stroke="#ec6fa8" stroke-width="1.2" d="M94 221q3 2 6 0"/>
+<!-- raised arm with feather -->
+<path stroke="#f4f2ec" stroke-width="2" d="M138 208Q142 192 150 182"/>
+<path stroke="#f4f2ec" stroke-width="2" d="M146 208Q150 194 156 184"/>
+<circle cx="153" cy="181" r="4" stroke="#3a3a3c" stroke-width="2.4"/>
+<path stroke="#ec6fa8" stroke-width="1.6" d="M153 180Q160 160 172 146"/>
+<path stroke="#ec6fa8" stroke-width="1" d="M156 172l-7-3M158 167l-8-4M161 162l-8-5M164 157l-8-6M167 152l-7-6M157 172l6 2M160 167l7 2M163 162l7 1M166 157l7 0M169 151l6-1"/>
+<path stroke="#f4f2ec" stroke-width="0.8" opacity="0.7" d="M155 178Q162 160 173 146"/>
+<!-- legs -->
+<path stroke="#f4f2ec" stroke-width="2" d="M172 214Q186 205 190 196"/>
+<path stroke="#f4f2ec" stroke-width="2" d="M174 224Q190 218 196 208"/>
+<ellipse cx="192" cy="194" rx="5" ry="4" stroke="#3a3a3c" stroke-width="2.4"/>
+<ellipse cx="198" cy="206" rx="5" ry="4" stroke="#3a3a3c" stroke-width="2.4"/>
+<path stroke="#f4f2ec" stroke-width="0.8" opacity="0.6" d="M178 214l4-4M180 222l5-4"/>
+</g>
+<!-- crystal shards on the ground -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path stroke="#66c3ee" stroke-width="1.8" d="M302 280L308 244L316 280ZM316 280L322 232L332 280ZM332 280L340 252L348 280Z"/>
+<path stroke="#8a4fc8" stroke-width="1.8" d="M276 282L282 262L290 282ZM348 282L356 266L362 282Z"/>
+<path stroke="#66c3ee" stroke-width="1" opacity="0.8" d="M308 250l0 28M322 240l2 38M340 258l0 20M312 262l3 14M326 246l-1 30"/>
+<path stroke="#f4f2ec" stroke-width="1" d="M322 222v-6M316 226l-4-4M328 226l4-4M308 234v-5M302 238l-3-3M349 244v-5M344 248l-3-3M354 248l3-2"/>
+<path stroke="#f4f2ec" stroke-width="1.2" d="M240 284l60 0M260 290l90 0" opacity="0.25"/>
+</g>
+</g></svg>

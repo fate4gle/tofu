@@ -1,0 +1,49 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs><rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<!-- night leaves hatching, dark grey -->
+<path d="M20 40 C60 20 100 30 130 60" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M30 60 C70 40 100 50 120 80" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M300 30 C330 20 370 40 385 80" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M290 55 C330 45 360 65 375 100" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M10 220 C40 190 80 200 110 250" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M20 250 C50 225 85 230 105 280" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M290 260 C320 220 360 220 392 250" stroke="#3a3a3c" stroke-width="3"/>
+<path d="M280 285 C320 250 360 250 395 280" stroke="#3a3a3c" stroke-width="3"/>
+<!-- leaves in green, a few -->
+<path d="M60 150 C90 120 140 120 165 150 C140 170 90 175 60 150 Z" stroke="#2f9e4f" stroke-width="2" opacity="0.7"/>
+<path d="M65 150 C100 145 135 148 162 150" stroke="#2f9e4f" stroke-width="1.5" opacity="0.7"/>
+<path d="M240 160 C265 130 320 125 345 155 C320 180 270 185 240 160 Z" stroke="#2f9e4f" stroke-width="2" opacity="0.7"/>
+<path d="M245 160 C280 155 315 157 342 155" stroke="#2f9e4f" stroke-width="1.5" opacity="0.7"/>
+<path d="M120 230 C150 205 195 210 215 235 C190 255 145 255 120 230 Z" stroke="#9fdc4a" stroke-width="1.5" opacity="0.5"/>
+<!-- the feather, white, in the middle -->
+<path d="M150 235 C185 190 215 130 255 70" stroke="#f4f2ec" stroke-width="3"/>
+<path d="M254 71 C225 80 200 105 192 135 C215 130 235 105 254 71" stroke="#f4f2ec" stroke-width="1.5"/>
+<path d="M250 78 C265 100 255 130 228 150 C224 125 235 100 250 78" stroke="#f4f2ec" stroke-width="1.5"/>
+<path d="M240 90 C215 105 205 125 203 135" stroke="#f4f2ec" stroke-width="1" opacity="0.7"/>
+<path d="M236 100 C222 115 216 128 213 138" stroke="#f4f2ec" stroke-width="1" opacity="0.7"/>
+<path d="M245 95 C250 115 244 130 236 142" stroke="#f4f2ec" stroke-width="1" opacity="0.7"/>
+<path d="M240 115 C245 130 238 145 230 150" stroke="#f4f2ec" stroke-width="1" opacity="0.7"/>
+<path d="M205 180 C190 180 175 195 168 210" stroke="#f4f2ec" stroke-width="1" opacity="0.7"/>
+<path d="M195 195 C182 198 170 210 162 225" stroke="#f4f2ec" stroke-width="1" opacity="0.7"/>
+<!-- a few light-blue glints on the feather -->
+<path d="M222 120 L230 112" stroke="#66c3ee" stroke-width="1.5"/>
+<path d="M236 135 L242 128" stroke="#66c3ee" stroke-width="1.5"/>
+<!-- sparkles in rows, tiny -->
+<path d="M40 100 l4 0 M42 98 l0 4" stroke="#f6d23c" stroke-width="1.5"/>
+<path d="M70 108 l4 0 M72 106 l0 4" stroke="#f6d23c" stroke-width="1.5"/>
+<path d="M100 114 l4 0 M102 112 l0 4" stroke="#f6d23c" stroke-width="1.5"/>
+<path d="M300 110 l4 0 M302 108 l0 4" stroke="#f6d23c" stroke-width="1.5"/>
+<path d="M330 104 l4 0 M332 102 l0 4" stroke="#f6d23c" stroke-width="1.5"/>
+<path d="M360 112 l4 0 M362 110 l0 4" stroke="#f6d23c" stroke-width="1.5"/>
+<!-- small crystal shard, light blue -->
+<path d="M300 215 L310 190 L322 215 L310 232 Z" stroke="#66c3ee" stroke-width="2"/>
+<path d="M310 190 L310 232 M300 215 L322 215" stroke="#66c3ee" stroke-width="1" opacity="0.6"/>
+<!-- Moon with round holes, top-left -->
+<circle cx="90" cy="40" r="0.1" stroke="#17171a"/>
+<circle cx="205" cy="40" r="22" stroke="#f4f2ec" stroke-width="2"/>
+<circle cx="198" cy="34" r="4" stroke="#f4f2ec" stroke-width="1.5"/>
+<circle cx="212" cy="46" r="5" stroke="#f4f2ec" stroke-width="1.5"/>
+<circle cx="210" cy="30" r="2" stroke="#f4f2ec" stroke-width="1.5"/>
+<!-- tiny grumpy-ish brow marks, a little pencil scribble bottom -->
+<path d="M30 285 L60 283 L90 286" stroke="#8a5a34" stroke-width="2" opacity="0.8"/>
+</g></g></svg>

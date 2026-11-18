@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs>
+<rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<g stroke-linecap="round" stroke-linejoin="round" fill="none">
+<!-- moon -->
+<circle cx="326" cy="58" r="29" stroke="#f4f2ec" stroke-width="2"/>
+<path d="M302 48 L318 34 M300 56 L328 31 M300 64 L338 31 M303 73 L346 40 M309 80 L350 47 M318 85 L350 58 M330 87 L348 70" stroke="#f4f2ec" stroke-width="1.2" opacity="0.55"/>
+<path d="M306 60 L322 82 M316 40 L342 80 M330 33 L352 66" stroke="#f6d23c" stroke-width="1" opacity="0.45"/>
+<circle cx="315" cy="52" r="5" stroke="#3a3a3c" stroke-width="1.6"/>
+<circle cx="336" cy="68" r="6.5" stroke="#3a3a3c" stroke-width="1.6"/>
+<circle cx="333" cy="45" r="3" stroke="#3a3a3c" stroke-width="1.6"/>
+<circle cx="316" cy="73" r="2.5" stroke="#3a3a3c" stroke-width="1.6"/>
+<!-- sparkles in rows -->
+<g stroke-width="1.4">
+<path d="M30 28 h6 M33 25 v6 M60 26 h6 M63 23 v6 M90 24 h6 M93 21 v6 M120 22 h6 M123 19 v6 M150 20 h6 M153 17 v6" stroke="#f4f2ec"/>
+<path d="M40 50 h6 M43 47 v6 M72 48 h6 M75 45 v6 M104 46 h6 M107 43 v6 M136 44 h6 M139 41 v6 M168 42 h6 M171 39 v6" stroke="#f6d23c"/>
+<path d="M24 72 h5 M26.5 69.5 v5 M54 70 h5 M56.5 67.5 v5 M86 68 h5 M88.5 65.5 v5 M118 66 h5 M120.5 63.5 v5 M150 64 h5 M152.5 61.5 v5 M182 62 h5 M184.5 59.5 v5" stroke="#66c3ee"/>
+<path d="M200 22 h5 M202.5 19.5 v5 M230 20 h5 M232.5 17.5 v5 M260 18 h5 M262.5 15.5 v5" stroke="#f4f2ec"/>
+<path d="M208 44 h5 M210.5 41.5 v5 M238 42 h5 M240.5 39.5 v5 M268 40 h5 M270.5 37.5 v5" stroke="#ec6fa8"/>
+</g>
+<!-- bark roof -->
+<path d="M52 152 L262 112 L272 130 L60 170 Z" stroke="#8a5a34" stroke-width="2.5"/>
+<path d="M62 150 L66 167 M78 147 L82 164 M94 144 L98 161 M110 141 L114 158 M127 138 L131 155 M144 135 L148 152 M160 132 L164 149 M178 129 L182 146 M196 126 L200 143 M214 122 L218 139 M232 119 L236 136 M250 116 L254 133" stroke="#8a5a34" stroke-width="1.6"/>
+<path d="M56 158 L266 118 M64 164 L268 125" stroke="#8a5a34" stroke-width="1" opacity="0.6"/>
+<path d="M70 152 L255 117" stroke="#f08a24" stroke-width="1" opacity="0.5"/>
+<!-- sticks -->
+<path d="M78 168 L74 250 M80 168 L77 250" stroke="#8a5a34" stroke-width="2"/>
+<path d="M248 130 L252 250 M250 130 L254 250" stroke="#8a5a34" stroke-width="2"/>
+<!-- warm stone -->
+<path d="M106 215 C102 190 130 178 162 180 C196 182 218 196 214 220 C210 238 180 240 150 240 C122 240 108 232 106 215 Z" stroke="#f08a24" stroke-width="2.4"/>
+<g stroke="#f08a24" stroke-width="1.6">
+<path d="M114 210 L126 190 M118 222 L140 186 M122 233 L152 184 M133 238 L166 183 M146 239 L180 186 M160 240 L193 190 M174 240 L204 195 M188 240 L211 203 M200 238 L214 214"/>
+</g>
+<g stroke="#d8342c" stroke-width="1.3" opacity="0.8">
+<path d="M112 222 L134 237 M114 214 L150 238 M120 204 L176 240 M132 192 L200 238 M150 184 L210 224 M174 184 L212 214"/>
+</g>
+<path d="M128 198 L150 192 M134 204 L158 197" stroke="#f6d23c" stroke-width="1.6"/>
+<!-- warmth wiggles -->
+<path d="M140 168 C136 162 144 158 140 152 M160 168 C156 162 164 158 160 152 M180 170 C176 164 184 160 180 154" stroke="#f6d23c" stroke-width="1" opacity="0.6"/>
+<!-- stump -->
+<ellipse cx="200" cy="262" rx="150" ry="24" stroke="#8a5a34" stroke-width="2.4"/>
+<ellipse cx="200" cy="262" rx="105" ry="16" stroke="#8a5a34" stroke-width="1.2"/>
+<ellipse cx="200" cy="262" rx="60" ry="9" stroke="#8a5a34" stroke-width="1.2"/>
+<ellipse cx="200" cy="262" rx="20" ry="3" stroke="#8a5a34" stroke-width="1"/>
+<path d="M52 272 L50 292 M90 283 L88 298 M150 288 L149 299 M210 289 L211 299 M270 286 L272 298 M320 278 L324 294 M348 268 L352 284" stroke="#8a5a34" stroke-width="1.6"/>
+<!-- crystal shards -->
+<path d="M286 252 L280 212 L292 196 L302 214 L300 252 Z" stroke="#66c3ee" stroke-width="2"/>
+<path d="M286 250 L292 198 M293 250 L292 200 M300 250 L292 198" stroke="#66c3ee" stroke-width="1" opacity="0.7"/>
+<path d="M283 235 L296 225 M283 224 L298 214" stroke="#f4f2ec" stroke-width="1.2"/>
+<path d="M304 254 L312 222 L322 232 L326 254 Z" stroke="#8a4fc8" stroke-width="2"/>
+<path d="M310 252 L314 228 M317 252 L318 234 M323 252 L320 236" stroke="#8a4fc8" stroke-width="1"/>
+<path d="M266 256 L262 238 L270 230 L275 256" stroke="#2f5fd0" stroke-width="1.8"/>
+<path d="M288 186 v-8 M284 182 h8 M318 210 v-6 M315 207 h6" stroke="#f4f2ec" stroke-width="1.2"/>
+<!-- feather -->
+<path d="M26 262 C40 240 58 226 84 212" stroke="#f4f2ec" stroke-width="1.8"/>
+<path d="M36 252 L28 244 M42 246 L36 236 M49 240 L45 229 M57 234 L56 222 M66 228 L68 216 M74 222 L80 212" stroke="#ec6fa8" stroke-width="1.3"/>
+<path d="M36 252 L46 256 M44 246 L55 249 M52 240 L63 241 M60 234 L72 234 M69 228 L79 226" stroke="#ec6fa8" stroke-width="1.3"/>
+<!-- tiny little stars near stone -->
+<path d="M230 170 h5 M232.5 167.5 v5" stroke="#f6d23c" stroke-width="1.2"/>
+<path d="M360 120 h5 M362.5 117.5 v5 M372 150 h5 M374.5 147.5 v5 M345 160 h5 M347.5 157.5 v5" stroke="#f4f2ec" stroke-width="1.2"/>
+</g>
+</g></svg>

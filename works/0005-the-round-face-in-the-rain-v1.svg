@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>the round face in the rain</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="55%" r="75%">
+      <stop offset="0" stop-color="#18203a"/>
+      <stop offset="1" stop-color="#070a16"/>
+    </radialGradient>
+    <radialGradient id="fade" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#999"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="m"><rect width="800" height="800" fill="url(#fade)"/></mask>
+    <radialGradient id="moon" cx="55%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#3a4668"/>
+      <stop offset="1" stop-color="#1d2540"/>
+    </radialGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <path id="sp" d="M0 -9 Q1.5 -1.5 9 0 Q1.5 1.5 0 9 Q-1.5 1.5 -9 0 Q-1.5 -1.5 0 -9Z"/>
+    <pattern id="rows" width="64" height="56" patternUnits="userSpaceOnUse">
+      <use href="#sp" x="16" y="12" fill="#cfd8ff" opacity="0.8" transform="translate(16 12) scale(0.6) translate(-16 -12)"/>
+      <use href="#sp" x="48" y="40" fill="#cfd8ff" opacity="0.8" transform="translate(48 40) scale(0.6) translate(-48 -40)"/>
+      <line x1="40" y1="6" x2="38" y2="20" stroke="#7f95d6" stroke-width="1" opacity="0.6"/>
+      <line x1="8" y1="34" x2="6" y2="48" stroke="#7f95d6" stroke-width="1" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <!-- rows of sparkles and rain, fading to the dark -->
+  <rect width="800" height="800" fill="url(#rows)" mask="url(#m)"/>
+
+  <!-- ears -->
+  <circle cx="262" cy="292" r="52" fill="#141a30" stroke="#2c3656" stroke-width="2"/>
+  <circle cx="538" cy="292" r="52" fill="#141a30" stroke="#2c3656" stroke-width="2"/>
+
+  <!-- moon face -->
+  <circle cx="400" cy="430" r="196" fill="url(#moon)"/>
+  <path d="M317 252 A196 196 0 0 1 486 254" fill="none" stroke="#ffe9a8" stroke-width="2" opacity="0.35"/>
+
+  <!-- valleys on the moon's edge -->
+  <circle cx="250" cy="560" r="22" fill="#222b4a" stroke="#4a587f" stroke-width="2"/>
+  <circle cx="560" cy="540" r="28" fill="#222b4a" stroke="#4a587f" stroke-width="2"/>
+  <circle cx="540" cy="600" r="12" fill="#222b4a" stroke="#4a587f" stroke-width="2"/>
+  <circle cx="300" cy="330" r="10" fill="#222b4a" stroke="#4a587f" stroke-width="2"/>
+
+  <!-- eyes: blue low places -->
+  <g transform="rotate(-12 335 420)">
+    <ellipse cx="335" cy="420" rx="40" ry="31" fill="#0e1430" stroke="#5a6aa0" stroke-width="3"/>
+  </g>
+  <g transform="rotate(12 465 420)">
+    <ellipse cx="465" cy="420" rx="40" ry="31" fill="#0e1430" stroke="#5a6aa0" stroke-width="3"/>
+  </g>
+  <circle cx="340" cy="424" r="7" fill="#cfd8ff"/>
+  <circle cx="460" cy="424" r="7" fill="#cfd8ff"/>
+  <!-- grumpy brows -->
+  <path d="M296 378 L360 392" stroke="#0e1430" stroke-width="6" stroke-linecap="round"/>
+  <path d="M504 378 L440 396" stroke="#0e1430" stroke-width="6" stroke-linecap="round"/>
+  <!-- nose and small flat mouth -->
+  <ellipse cx="400" cy="475" rx="17" ry="11" fill="#0e1430"/>
+  <path d="M376 515 Q400 504 424 515" fill="none" stroke="#0e1430" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- rain across the face, light -->
+  <rect x="204" y="234" width="392" height="392" fill="url(#rows)" opacity="0.35"/>
+
+  <!-- sun beads going out one by one along the edge -->
+  <g fill="#ffe9a8">
+    <g filter="url(#glow)" opacity="0.9">
+      <circle cx="376" cy="235" r="8"/>
+      <circle cx="400" cy="234" r="9"/>
+      <circle cx="424" cy="235" r="7"/>
+      <circle cx="349" cy="241" r="5"/>
+      <circle cx="447" cy="240" r="5"/>
+      <circle cx="467" cy="246" r="3"/>
+    </g>
+    <circle cx="376" cy="235" r="4"/>
+    <circle cx="400" cy="234" r="5"/>
+    <circle cx="424" cy="235" r="4"/>
+    <circle cx="349" cy="241" r="3"/>
+    <circle cx="447" cy="240" r="3"/>
+    <circle cx="467" cy="246" r="1.8"/>
+    <circle cx="317" cy="252" r="1.2" opacity="0.6"/>
+    <circle cx="486" cy="254" r="1.2" opacity="0.4"/>
+  </g>
+
+  <!-- the gold star -->
+  <g transform="translate(634 150)">
+    <use href="#sp" fill="#ffcf4a" transform="scale(3.2)">
+      <animate attributeName="opacity" values="1;0.65;1" dur="7s" repeatCount="indefinite"/>
+    </use>
+    <circle r="30" fill="none" stroke="#ffcf4a" stroke-width="1" opacity="0.35"/>
+  </g>
+
+  <!-- a crowd of sparkles, lower left -->
+  <g fill="#cfd8ff" opacity="0.85">
+    <use href="#sp" transform="translate(90 640) scale(0.8)"/>
+    <use href="#sp" transform="translate(120 660) scale(0.5)"/>
+    <use href="#sp" transform="translate(70 690) scale(0.6)"/>
+    <use href="#sp" transform="translate(150 700) scale(0.9)"/>
+    <use href="#sp" transform="translate(185 670) scale(0.4)"/>
+    <use href="#sp" transform="translate(110 725) scale(0.5)"/>
+    <use href="#sp" transform="translate(210 730) scale(0.6)"/>
+    <use href="#sp" transform="translate(45 735) scale(0.4)"/>
+    <use href="#sp" transform="translate(240 695) scale(0.35)"/>
+    <use href="#sp" transform="translate(30 660) scale(0.3)"/>
+    <use href="#sp" transform="translate(265 745) scale(0.3)"/>
+  </g>
+
+  <!-- a few more, drifting off the right edge -->
+  <g fill="#cfd8ff" opacity="0.6">
+    <use href="#sp" transform="translate(700 420) scale(0.6)"/>
+    <use href="#sp" transform="translate(745 470) scale(0.4)"/>
+    <use href="#sp" transform="translate(720 540) scale(0.5)"/>
+    <use href="#sp" transform="translate(780 600) scale(0.3)"/>
+  </g>
+
+  <text x="400" y="775" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7f8db8" opacity="0.7">the round face in the rain</text>
+</svg>

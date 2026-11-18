@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs>
+<rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<!-- rows of sparkles -->
+<g stroke="#f4f2ec" stroke-width="2.2">
+<path d="M18 22l.5 0M44 20l.5 0M70 23l.5 0M97 19l.5 0M122 22l.5 0M150 20l.5 0M176 23l.5 0M203 19l.5 0M230 21l.5 0"/>
+<path d="M10 44l.5 0M38 42l.5 0M66 45l.5 0M92 41l.5 0M120 44l.5 0M148 42l.5 0M175 45l.5 0M204 41l.5 0"/>
+<path d="M22 66l.5 0M50 64l.5 0M78 67l.5 0M106 63l.5 0M134 66l.5 0M162 64l.5 0M190 67l.5 0"/>
+<path d="M12 88l.5 0M42 86l.5 0M72 89l.5 0M100 85l.5 0M130 88l.5 0M158 86l.5 0"/>
+</g>
+<g stroke="#f6d23c" stroke-width="1.6">
+<path d="M340 20l.5 0M365 30l.5 0M382 14l.5 0M350 85l.5 0M378 70l.5 0M335 100l.5 0"/>
+<path d="M236 38l4 0M238 36l0 4"/>
+</g>
+<!-- moon in the sky -->
+<circle cx="290" cy="55" r="26" stroke="#f4f2ec" stroke-width="2"/>
+<g stroke="#f6d23c" stroke-width="1.2" opacity="0.8">
+<path d="M278 34l24 1M272 39l36 0M268 44l45 1M266 49l49 0M265 54l51 1M266 59l48 0M268 64l44 1M272 69l36 0M276 74l28 0"/>
+</g>
+<g stroke="#8a8a8c" stroke-width="1.3">
+<circle cx="282" cy="48" r="4"/><circle cx="298" cy="60" r="5"/><circle cx="286" cy="68" r="2.5"/><circle cx="300" cy="42" r="2"/>
+</g>
+<!-- pond -->
+<ellipse cx="200" cy="175" rx="168" ry="72" stroke="#66c3ee" stroke-width="2.4"/>
+<ellipse cx="200" cy="177" rx="165" ry="70" stroke="#2f5fd0" stroke-width="1" opacity="0.6"/>
+<g stroke="#2f5fd0" stroke-width="1" opacity="0.55">
+<path d="M70 150q8-3 16 0t16 0M250 124q8-3 16 0t16 0M60 185q10-3 20 0t20 0M190 222q10-3 20 0t20 0M290 210q10-3 20 0t20 0M330 170q8-3 16 0t16 0M170 128q8-3 16 0t16 0M60 168q6-2 12 0"/>
+</g>
+<g stroke="#66c3ee" stroke-width="1" opacity="0.5">
+<path d="M90 200q10-3 20 0t20 0M220 205q10-3 20 0t20 0M340 190q6-2 12 0M130 215q10-3 20 0M250 232q8-2 16 0"/>
+</g>
+<!-- moon reflection, wobbly -->
+<path d="M264 170q1-14 12-21t26 0q11 8 12 21q-1 14-12 21t-26 0q-11-8-12-21z" stroke="#f4f2ec" stroke-width="1.8"/>
+<g stroke="#f6d23c" stroke-width="1.3" opacity="0.75">
+<path d="M278 150q6-2 12 0t12 0M272 155q9-2 18 0t18 0M268 160q10-2 20 0t20 0M266 165q10-2 20 0t22 0M265 170q10-2 22 0t24 0M266 175q10-2 22 0t22 0M268 180q10-2 20 0t20 0M272 185q9-2 18 0t16 0M278 190q6-2 12 0t10 0"/>
+</g>
+<g stroke="#8a8a8c" stroke-width="1.2">
+<ellipse cx="282" cy="163" rx="4" ry="3"/><ellipse cx="298" cy="175" rx="5" ry="4"/><ellipse cx="286" cy="183" rx="2.5" ry="2"/><ellipse cx="300" cy="157" rx="2" ry="1.5"/>
+</g>
+<path d="M255 198q10-3 20 0t20 0t20 0" stroke="#66c3ee" stroke-width="1.2"/>
+<!-- Tofu's face looking back -->
+<path d="M94 172q0-18 14-26q17-8 34 0q14 8 14 26q0 18-14 26q-17 8-34 0q-14-8-14-26z" stroke="#f4f2ec" stroke-width="2"/>
+<circle cx="100" cy="146" r="10" stroke="#f4f2ec" stroke-width="1.5"/>
+<circle cx="150" cy="146" r="10" stroke="#f4f2ec" stroke-width="1.5"/>
+<g stroke="#3a3a3c" stroke-width="1.6">
+<path d="M94 143l12 -3M92 147l16 -3M93 151l14 -3M95 154l10 -2M144 140l12 3M142 144l16 3M143 148l14 3M145 151l10 3"/>
+</g>
+<g stroke="#f4f2ec" stroke-width="1" opacity="0.35">
+<path d="M104 160q10-2 20 0t20 0M100 166q12-2 24 0t24 0M98 172q12-2 26 0t26 0M99 178q12-2 24 0t26 0M104 184q10-2 20 0t18 0M110 190q8-2 16 0t12 0"/>
+</g>
+<ellipse cx="111" cy="170" rx="7" ry="9" transform="rotate(20 111 170)" stroke="#8a8a8c" stroke-width="1.5"/>
+<ellipse cx="140" cy="170" rx="7" ry="9" transform="rotate(-20 140 170)" stroke="#8a8a8c" stroke-width="1.5"/>
+<g stroke="#8a8a8c" stroke-width="1.3">
+<path d="M106 165l10 2M105 169l11 1M106 173l9 0M135 167l9-2M134 170l11-1M136 174l9 0"/>
+</g>
+<circle cx="113" cy="169" r="1.8" stroke="#f4f2ec" stroke-width="1.6"/>
+<circle cx="138" cy="169" r="1.8" stroke="#f4f2ec" stroke-width="1.6"/>
+<path d="M120 180q5-3 10 0M121 182q4 2 8 0" stroke="#ec6fa8" stroke-width="2"/>
+<path d="M125 184q-2 5-6 5M125 184q2 5 6 5" stroke="#f4f2ec" stroke-width="1.3"/>
+<!-- ripples across the face -->
+<path d="M80 200q22-5 44 0t44 0" stroke="#66c3ee" stroke-width="1.4"/>
+<path d="M60 207q30-5 60 0t60 0" stroke="#66c3ee" stroke-width="1" opacity="0.6"/>
+<!-- sparkle reflected in water -->
+<g stroke="#f4f2ec" stroke-width="1.8">
+<path d="M200 140l.5 0M215 150l.5 0M195 155l.5 0M210 165l.5 0M205 195l.5 0"/>
+</g>
+<!-- wet sand -->
+<path d="M0 252q50-8 100-2t100 0t100 2t100-4" stroke="#8a5a34" stroke-width="1.6"/>
+<g stroke="#8a5a34" stroke-width="1.3" opacity="0.85">
+<path d="M0 262l60 -4M0 272l120 -8M0 283l180 -10M0 294l240 -14M60 296l180 -12M150 296l160 -10M250 294l150 -14M300 282l100 -10M330 268l70 -6M360 258l40 -4"/>
+</g>
+<g stroke="#f08a24" stroke-width="1" opacity="0.5">
+<path d="M20 288l100 -8M200 292l120 -10M330 280l70 -6"/>
+</g>
+<!-- feather on the sand -->
+<path d="M40 276q30-18 80-14" stroke="#f4f2ec" stroke-width="1.8"/>
+<g stroke="#f4f2ec" stroke-width="1">
+<path d="M55 270l-4 -7M64 267l-3 -8M74 265l-2 -8M84 263l-1 -8M94 262l0 -8M104 262l2 -7M60 272l-3 6M70 271l-2 6M80 269l-1 6M90 268l0 6M100 266l1 6M110 264l2 5"/>
+</g>
+<!-- crystal shards -->
+<path d="M330 276l6 -22l8 22z" stroke="#66c3ee" stroke-width="1.8"/>
+<path d="M336 254l2 22M338 276l6-22" stroke="#f4f2ec" stroke-width="1"/>
+<path d="M348 278l4 -14l6 14z" stroke="#8a4fc8" stroke-width="1.8"/>
+<path d="M352 264l0 14" stroke="#f4f2ec" stroke-width="1"/>
+<g stroke="#f4f2ec" stroke-width="1.2"><path d="M340 246l0 -5M334 249l-3 -3M346 249l3 -3"/></g>
+</g>
+</g></svg>

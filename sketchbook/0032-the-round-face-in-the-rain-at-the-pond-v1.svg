@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><defs><filter id="tofu-pencil" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G" result="w"/><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="1" seed="3" result="t"/><feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 1.3" result="tooth"/><feComposite in="w" in2="tooth" operator="in"/></filter></defs>
+<rect width="400" height="300" fill="#17171a"/><g filter="url(#tofu-pencil)">
+<!-- stars in rows -->
+<g fill="none" stroke="#f6d23c" stroke-width="1.2" stroke-linecap="round">
+<path d="M20 18l1 0M40 17l1 0M62 19l1 0M84 17l1 0M106 18l1 0M128 17l1 0"/>
+<path d="M30 34l1 0M52 33l1 0M74 35l1 0M96 33l1 0M118 34l1 0"/>
+<path d="M20 50l1 0M42 51l1 0M64 49l1 0M86 50l1 0"/>
+<path d="M270 16l1 0M292 17l1 0M314 15l1 0M336 17l1 0M358 16l1 0M380 17l1 0"/>
+<path d="M280 32l1 0M302 33l1 0M324 31l1 0M346 33l1 0M368 32l1 0"/>
+<path d="M290 48l1 0M312 49l1 0M334 47l1 0M356 49l1 0"/>
+</g>
+<g fill="none" stroke="#f4f2ec" stroke-width="1" stroke-linecap="round" opacity="0.8">
+<path d="M150 14l0 4M148 16l4 0M172 26l0 4M170 28l4 0M240 22l0 4M238 24l4 0M230 40l0 3M228 41.5l4 0"/>
+</g>
+<!-- moon hatching -->
+<g fill="none" stroke="#f4f2ec" stroke-width="1.3" stroke-linecap="round" opacity="0.75">
+<path d="M183 46L217 44M174 52L226 50M169 58L231 56M166 64L234 62M163 70L237 68M162 76L238 74M162 82L238 80M163 88L237 86M165 94L235 92M168 100L232 98M172 106L228 104M180 112L220 110"/>
+</g>
+<g fill="none" stroke="#f6d23c" stroke-width="1" stroke-linecap="round" opacity="0.55">
+<path d="M175 49L224 55M168 61L232 67M165 73L236 79M164 85L236 91M168 97L232 103M176 108L224 109"/>
+</g>
+<!-- moon outline, wobbly -->
+<path d="M162 80C161 58 180 41 201 42C222 42 239 58 238 80C238 102 220 119 200 118C180 118 163 102 162 80Z" stroke="#f4f2ec" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M165 78C166 58 182 45 200 45" stroke="#f4f2ec" stroke-width="1" fill="none" opacity="0.6"/>
+<!-- holes: eyes and mouth -->
+<circle cx="187" cy="74" r="6" stroke="#111111" stroke-width="3.5" fill="none"/>
+<circle cx="187" cy="74" r="1.5" stroke="#111111" stroke-width="2.5" fill="none"/>
+<circle cx="214" cy="72" r="4.5" stroke="#111111" stroke-width="3.5" fill="none"/>
+<circle cx="214" cy="72" r="1" stroke="#111111" stroke-width="2" fill="none"/>
+<path d="M186 93Q200 103 215 91" stroke="#111111" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="202" cy="58" r="3" stroke="#111111" stroke-width="2" fill="none"/>
+<circle cx="225" cy="97" r="3.5" stroke="#111111" stroke-width="2" fill="none"/>
+<circle cx="174" cy="98" r="2.5" stroke="#111111" stroke-width="2" fill="none"/>
+<!-- pond -->
+<ellipse cx="200" cy="218" rx="152" ry="50" stroke="#66c3ee" stroke-width="2" fill="none"/>
+<g fill="none" stroke="#2f5fd0" stroke-width="1.4" stroke-linecap="round" opacity="0.8">
+<path d="M138 173L262 173M108 179L292 179M88 185L312 185M76 191L324 191M66 197L334 197M58 203L342 203M54 209L346 209M52 215L348 215M52 221L348 221M54 227L346 227M58 233L342 233M66 239L334 239M76 245L324 245M90 251L310 251M108 257L292 257M135 263L265 263"/>
+</g>
+<g fill="none" stroke="#66c3ee" stroke-width="1" stroke-linecap="round" opacity="0.6">
+<path d="M70 200L150 199M250 204L330 203M80 230L160 231M240 236L320 235M120 248L200 249M210 254L280 253"/>
+</g>
+<!-- reflection of round face -->
+<path d="M167 218C167 202 183 190 200 190C218 190 234 203 234 218C234 233 218 246 200 246C182 246 167 233 167 218Z" stroke="#f4f2ec" stroke-width="1.6" fill="none" stroke-dasharray="9 3" stroke-linecap="round"/>
+<g fill="none" stroke="#f4f2ec" stroke-width="1.2" stroke-linecap="round" opacity="0.7">
+<path d="M172 203L228 200M170 211L231 209M169 219L232 217M170 227L231 226M174 235L226 234M181 242L219 241"/>
+</g>
+<circle cx="188" cy="212" r="4" stroke="#17171a" stroke-width="3" fill="none"/>
+<circle cx="213" cy="211" r="3.5" stroke="#17171a" stroke-width="3" fill="none"/>
+<path d="M187 230Q200 236 214 229" stroke="#17171a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<!-- ripples from raindrops -->
+<g fill="none" stroke="#f4f2ec" stroke-width="1.2" opacity="0.85">
+<ellipse cx="120" cy="225" rx="9" ry="3"/><ellipse cx="120" cy="225" rx="17" ry="5.5"/>
+<ellipse cx="282" cy="200" rx="8" ry="2.5"/><ellipse cx="282" cy="200" rx="15" ry="5"/>
+<ellipse cx="260" cy="244" rx="10" ry="3"/><ellipse cx="260" cy="244" rx="19" ry="6"/><ellipse cx="260" cy="244" rx="28" ry="8"/>
+<ellipse cx="150" cy="188" rx="6" ry="2"/><ellipse cx="150" cy="188" rx="12" ry="4"/>
+<ellipse cx="170" cy="256" rx="7" ry="2"/>
+</g>
+<!-- rain -->
+<g fill="none" stroke="#66c3ee" stroke-width="1.2" stroke-linecap="round" opacity="0.85">
+<path d="M12 60l-4 12M45 75l-4 12M80 62l-4 12M110 90l-4 12M135 55l-4 12M25 110l-4 12M60 130l-4 12M95 125l-4 12M130 140l-4 12M10 160l-4 12M40 170l-4 12"/>
+<path d="M255 60l-4 12M285 75l-4 12M320 58l-4 12M355 80l-4 12M385 65l-4 12M270 110l-4 12M305 120l-4 12M340 105l-4 12M375 125l-4 12M260 150l-4 12M295 160l-4 12M330 145l-4 12M365 160l-4 12M390 100l-4 12"/>
+<path d="M150 20l-4 12M200 8l-4 12M180 130l-4 12M225 135l-4 12M165 145l-4 12M5 200l-4 12M395 210l-4 12M30 240l-4 12M375 250l-4 12M20 275l-4 12M385 280l-4 12"/>
+</g>
+<g fill="none" stroke="#f4f2ec" stroke-width="0.8" stroke-linecap="round" opacity="0.5">
+<path d="M100 40l-3 9M200 150l-3 9M240 60l-3 9M350 40l-3 9M70 100l-3 9M310 90l-3 9M20 85l-3 9M375 180l-3 9"/>
+</g>
+<!-- sand strip -->
+<path d="M0 272Q100 266 200 270Q300 266 400 272" stroke="#8a5a34" stroke-width="1.6" fill="none"/>
+<g fill="none" stroke="#8a5a34" stroke-width="1.5" stroke-linecap="round" opacity="0.85">
+<path d="M4 277L60 275M110 276L190 277M210 276L280 275M300 277L396 276M2 283L48 284M95 284L160 283M175 284L255 285M275 283L340 284M360 283L398 283M6 290L80 291M120 290L200 291M225 290L300 289M330 291L396 290M2 296L70 296M100 296L170 295M210 296L290 296M320 296L398 295"/>
+</g>
+<!-- tiny Tofu lying on his back -->
+<ellipse cx="62" cy="285" rx="8.5" ry="8" stroke="#f4f2ec" stroke-width="1.6" fill="none"/>
+<circle cx="55" cy="278" r="3.2" stroke="#3a3a3c" stroke-width="2.5" fill="none"/>
+<circle cx="69" cy="278" r="3.2" stroke="#3a3a3c" stroke-width="2.5" fill="none"/>
+<path d="M57 284l2 0M65 284l2 0M61 287l2 1" stroke="#f4f2ec" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+<ellipse cx="90" cy="288" rx="17" ry="7.5" stroke="#f4f2ec" stroke-width="1.6" fill="none"/>
+<path d="M82 281l-3 -7M96 281l3 -7M100 286l5 -5M80 292l-2 3" stroke="#3a3a3c" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M84 284L96 285M83 289L97 290" stroke="#3a3a3c" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+<!-- feather -->
+<path d="M240 292Q265 285 296 274" stroke="#ec6fa8" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<g fill="none" stroke="#ec6fa8" stroke-width="1" stroke-linecap="round">
+<path d="M252 289l-4 -10M260 287l-4 -11M268 284l-4 -11M276 281l-3 -11M284 278l-3 -10M291 276l-2 -8"/>
+<path d="M252 289l-1 7M260 287l0 7M268 284l1 7M276 281l2 6M284 278l3 5"/>
+</g>
+<!-- crystal shards -->
+<path d="M335 292L340 268L346 292Z" stroke="#66c3ee" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<path d="M340 268L340 292M337 282L343 282" stroke="#f4f2ec" stroke-width="1" fill="none"/>
+<path d="M349 292L356 276L362 292Z" stroke="#8a4fc8" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<path d="M356 276L356 292M352 286L359 285" stroke="#f4f2ec" stroke-width="1" fill="none" opacity="0.8"/>
+<path d="M330 262l0 5M327.5 264.5l5 0M366 266l0 5M363.5 268.5l5 0" stroke="#f4f2ec" stroke-width="1" stroke-linecap="round" fill="none"/>
+</g></svg>
